@@ -1,0 +1,88 @@
+body{
+    background-color: #1C1C1C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+    position: relative;
+}
+
+.logomarca{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #6A5ACD;
+    margin:50px auto 0;
+
+}
+
+.logomarca h2{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.formulario{
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 30%;
+    margin-left: 1%;
+    transform: translate(-50%, -50%);
+
+}
+
+.formulario input[type=text]{
+    width: 100%; 
+    padding: 12px 10px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.formulario input[type=submit]{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario input[type=submit]:hover{
+    background-color: #6A5ACD;
+    color: white;
+    transition:1s;
+}
+
+.formulario label{
+    color: White;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:900px){
+    .formulario{
+        margin-top: 200px;
+    }
+
+    .formulario input[type=submit]{
+        background-color: #6A5ACD;
+        color: white;
+        font-weight: bold;
+        padding: 14px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
